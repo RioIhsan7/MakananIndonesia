@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C494FF1931BC972FADA7DE /* Pods_MakananIndonesiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEF960F2B62AAFB60AC6934 /* Pods_MakananIndonesiaTests.framework */; };
+		395B00601FD3DFD300573E89 /* Makanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B005F1FD3DFD300573E89 /* Makanan.swift */; };
+		395B00621FD3E02700573E89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B00611FD3E02700573E89 /* DetailViewController.swift */; };
+		395B00641FD3E03000573E89 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B00631FD3E03000573E89 /* InputViewController.swift */; };
+		395B00661FD3E03C00573E89 /* MakananTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B00651FD3E03C00573E89 /* MakananTableViewController.swift */; };
+		395B00681FD3E04E00573E89 /* MakananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B00671FD3E04E00573E89 /* MakananTableViewCell.swift */; };
+		39D32DC41FD3DEDD00A19420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D32DC31FD3DEDD00A19420 /* AppDelegate.swift */; };
+		39D32DC61FD3DEDD00A19420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D32DC51FD3DEDD00A19420 /* ViewController.swift */; };
+		39D32DC91FD3DEDD00A19420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D32DC71FD3DEDD00A19420 /* Main.storyboard */; };
+		39D32DCB1FD3DEDD00A19420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D32DCA1FD3DEDD00A19420 /* Assets.xcassets */; };
+		39D32DCE1FD3DEDD00A19420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D32DCC1FD3DEDD00A19420 /* LaunchScreen.storyboard */; };
+		39D32DD91FD3DEDD00A19420 /* MakananIndonesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D32DD81FD3DEDD00A19420 /* MakananIndonesiaTests.swift */; };
+		39D32DE41FD3DEDD00A19420 /* MakananIndonesiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D32DE31FD3DEDD00A19420 /* MakananIndonesiaUITests.swift */; };
+		6415CA8EC50FD79ED504409D /* Pods_MakananIndonesia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18401290C70F4D69E45B0F34 /* Pods_MakananIndonesia.framework */; };
+		BB71F2045F2E3A0369CC57EC /* Pods_MakananIndonesiaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7174F8CE416FD042ED56BFE0 /* Pods_MakananIndonesiaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D32DD51FD3DEDD00A19420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D32DB81FD3DEDD00A19420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D32DBF1FD3DEDD00A19420;
+			remoteInfo = MakananIndonesia;
+		};
+		39D32DE01FD3DEDD00A19420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D32DB81FD3DEDD00A19420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D32DBF1FD3DEDD00A19420;
+			remoteInfo = MakananIndonesia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EF4BD2BB49064B79DCEA0C /* Pods-MakananIndonesia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesia.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesia/Pods-MakananIndonesia.release.xcconfig"; sourceTree = "<group>"; };
+		18401290C70F4D69E45B0F34 /* Pods_MakananIndonesia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakananIndonesia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEF960F2B62AAFB60AC6934 /* Pods_MakananIndonesiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakananIndonesiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395B005F1FD3DFD300573E89 /* Makanan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makanan.swift; sourceTree = "<group>"; };
+		395B00611FD3E02700573E89 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		395B00631FD3E03000573E89 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		395B00651FD3E03C00573E89 /* MakananTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewController.swift; sourceTree = "<group>"; };
+		395B00671FD3E04E00573E89 /* MakananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewCell.swift; sourceTree = "<group>"; };
+		39D32DC01FD3DEDD00A19420 /* MakananIndonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakananIndonesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D32DC31FD3DEDD00A19420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39D32DC51FD3DEDD00A19420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39D32DC81FD3DEDD00A19420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D32DCA1FD3DEDD00A19420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D32DCD1FD3DEDD00A19420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D32DCF1FD3DEDD00A19420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D32DD41FD3DEDD00A19420 /* MakananIndonesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakananIndonesiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D32DD81FD3DEDD00A19420 /* MakananIndonesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananIndonesiaTests.swift; sourceTree = "<group>"; };
+		39D32DDA1FD3DEDD00A19420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D32DDF1FD3DEDD00A19420 /* MakananIndonesiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakananIndonesiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D32DE31FD3DEDD00A19420 /* MakananIndonesiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananIndonesiaUITests.swift; sourceTree = "<group>"; };
+		39D32DE51FD3DEDD00A19420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7174F8CE416FD042ED56BFE0 /* Pods_MakananIndonesiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakananIndonesiaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BDDAFB71E8A5782546621E /* Pods-MakananIndonesia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesia/Pods-MakananIndonesia.debug.xcconfig"; sourceTree = "<group>"; };
+		84733B69B07E876F34AAAE9A /* Pods-MakananIndonesiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesiaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesiaTests/Pods-MakananIndonesiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6FDAF53E5DE46CB7B212859 /* Pods-MakananIndonesiaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesiaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesiaUITests/Pods-MakananIndonesiaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2AC58EB8D8F073D36D24A08 /* Pods-MakananIndonesiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesiaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesiaTests/Pods-MakananIndonesiaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D532BA628F1405200527098B /* Pods-MakananIndonesiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakananIndonesiaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakananIndonesiaUITests/Pods-MakananIndonesiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D32DBD1FD3DEDD00A19420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6415CA8EC50FD79ED504409D /* Pods_MakananIndonesia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DD11FD3DEDD00A19420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C494FF1931BC972FADA7DE /* Pods_MakananIndonesiaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DDC1FD3DEDD00A19420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71F2045F2E3A0369CC57EC /* Pods_MakananIndonesiaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B045735FF6853E9E97779 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71BDDAFB71E8A5782546621E /* Pods-MakananIndonesia.debug.xcconfig */,
+				01EF4BD2BB49064B79DCEA0C /* Pods-MakananIndonesia.release.xcconfig */,
+				D2AC58EB8D8F073D36D24A08 /* Pods-MakananIndonesiaTests.debug.xcconfig */,
+				84733B69B07E876F34AAAE9A /* Pods-MakananIndonesiaTests.release.xcconfig */,
+				D532BA628F1405200527098B /* Pods-MakananIndonesiaUITests.debug.xcconfig */,
+				B6FDAF53E5DE46CB7B212859 /* Pods-MakananIndonesiaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2776E19104B04A7709E0D374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18401290C70F4D69E45B0F34 /* Pods_MakananIndonesia.framework */,
+				1FEF960F2B62AAFB60AC6934 /* Pods_MakananIndonesiaTests.framework */,
+				7174F8CE416FD042ED56BFE0 /* Pods_MakananIndonesiaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39D32DB71FD3DEDD00A19420 = {
+			isa = PBXGroup;
+			children = (
+				39D32DC21FD3DEDD00A19420 /* MakananIndonesia */,
+				39D32DD71FD3DEDD00A19420 /* MakananIndonesiaTests */,
+				39D32DE21FD3DEDD00A19420 /* MakananIndonesiaUITests */,
+				39D32DC11FD3DEDD00A19420 /* Products */,
+				056B045735FF6853E9E97779 /* Pods */,
+				2776E19104B04A7709E0D374 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39D32DC11FD3DEDD00A19420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D32DC01FD3DEDD00A19420 /* MakananIndonesia.app */,
+				39D32DD41FD3DEDD00A19420 /* MakananIndonesiaTests.xctest */,
+				39D32DDF1FD3DEDD00A19420 /* MakananIndonesiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D32DC21FD3DEDD00A19420 /* MakananIndonesia */ = {
+			isa = PBXGroup;
+			children = (
+				39D32DC31FD3DEDD00A19420 /* AppDelegate.swift */,
+				39D32DC51FD3DEDD00A19420 /* ViewController.swift */,
+				39D32DC71FD3DEDD00A19420 /* Main.storyboard */,
+				39D32DCA1FD3DEDD00A19420 /* Assets.xcassets */,
+				39D32DCC1FD3DEDD00A19420 /* LaunchScreen.storyboard */,
+				39D32DCF1FD3DEDD00A19420 /* Info.plist */,
+				395B005F1FD3DFD300573E89 /* Makanan.swift */,
+				395B00611FD3E02700573E89 /* DetailViewController.swift */,
+				395B00631FD3E03000573E89 /* InputViewController.swift */,
+				395B00651FD3E03C00573E89 /* MakananTableViewController.swift */,
+				395B00671FD3E04E00573E89 /* MakananTableViewCell.swift */,
+			);
+			path = MakananIndonesia;
+			sourceTree = "<group>";
+		};
+		39D32DD71FD3DEDD00A19420 /* MakananIndonesiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D32DD81FD3DEDD00A19420 /* MakananIndonesiaTests.swift */,
+				39D32DDA1FD3DEDD00A19420 /* Info.plist */,
+			);
+			path = MakananIndonesiaTests;
+			sourceTree = "<group>";
+		};
+		39D32DE21FD3DEDD00A19420 /* MakananIndonesiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39D32DE31FD3DEDD00A19420 /* MakananIndonesiaUITests.swift */,
+				39D32DE51FD3DEDD00A19420 /* Info.plist */,
+			);
+			path = MakananIndonesiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D32DBF1FD3DEDD00A19420 /* MakananIndonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D32DE81FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesia" */;
+			buildPhases = (
+				5E708F6755125782D0DD8FA2 /* [CP] Check Pods Manifest.lock */,
+				39D32DBC1FD3DEDD00A19420 /* Sources */,
+				39D32DBD1FD3DEDD00A19420 /* Frameworks */,
+				39D32DBE1FD3DEDD00A19420 /* Resources */,
+				6155CDEBA4EE9F83CB807D65 /* [CP] Embed Pods Frameworks */,
+				6A561AD7A481EC14ADDA7611 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakananIndonesia;
+			productName = MakananIndonesia;
+			productReference = 39D32DC01FD3DEDD00A19420 /* MakananIndonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D32DD31FD3DEDD00A19420 /* MakananIndonesiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D32DEB1FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesiaTests" */;
+			buildPhases = (
+				C671788F193B1EEEE6C8364F /* [CP] Check Pods Manifest.lock */,
+				39D32DD01FD3DEDD00A19420 /* Sources */,
+				39D32DD11FD3DEDD00A19420 /* Frameworks */,
+				39D32DD21FD3DEDD00A19420 /* Resources */,
+				3F639B2C30E16A3102533DCB /* [CP] Embed Pods Frameworks */,
+				F88D31754C9D6781CFE595FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D32DD61FD3DEDD00A19420 /* PBXTargetDependency */,
+			);
+			name = MakananIndonesiaTests;
+			productName = MakananIndonesiaTests;
+			productReference = 39D32DD41FD3DEDD00A19420 /* MakananIndonesiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39D32DDE1FD3DEDD00A19420 /* MakananIndonesiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D32DEE1FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesiaUITests" */;
+			buildPhases = (
+				0C5CAAB34F9E5C751F8C5F3D /* [CP] Check Pods Manifest.lock */,
+				39D32DDB1FD3DEDD00A19420 /* Sources */,
+				39D32DDC1FD3DEDD00A19420 /* Frameworks */,
+				39D32DDD1FD3DEDD00A19420 /* Resources */,
+				8A8530DA99264C86C21D3374 /* [CP] Embed Pods Frameworks */,
+				3575D158170B3D6E36E3132D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D32DE11FD3DEDD00A19420 /* PBXTargetDependency */,
+			);
+			name = MakananIndonesiaUITests;
+			productName = MakananIndonesiaUITests;
+			productReference = 39D32DDF1FD3DEDD00A19420 /* MakananIndonesiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D32DB81FD3DEDD00A19420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rio Ihsan";
+				TargetAttributes = {
+					39D32DBF1FD3DEDD00A19420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					39D32DD31FD3DEDD00A19420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39D32DBF1FD3DEDD00A19420;
+					};
+					39D32DDE1FD3DEDD00A19420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39D32DBF1FD3DEDD00A19420;
+					};
+				};
+			};
+			buildConfigurationList = 39D32DBB1FD3DEDD00A19420 /* Build configuration list for PBXProject "MakananIndonesia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D32DB71FD3DEDD00A19420;
+			productRefGroup = 39D32DC11FD3DEDD00A19420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D32DBF1FD3DEDD00A19420 /* MakananIndonesia */,
+				39D32DD31FD3DEDD00A19420 /* MakananIndonesiaTests */,
+				39D32DDE1FD3DEDD00A19420 /* MakananIndonesiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D32DBE1FD3DEDD00A19420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D32DCE1FD3DEDD00A19420 /* LaunchScreen.storyboard in Resources */,
+				39D32DCB1FD3DEDD00A19420 /* Assets.xcassets in Resources */,
+				39D32DC91FD3DEDD00A19420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DD21FD3DEDD00A19420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DDD1FD3DEDD00A19420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5CAAB34F9E5C751F8C5F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakananIndonesiaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3575D158170B3D6E36E3132D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesiaUITests/Pods-MakananIndonesiaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F639B2C30E16A3102533DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesiaTests/Pods-MakananIndonesiaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E708F6755125782D0DD8FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakananIndonesia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6155CDEBA4EE9F83CB807D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesia/Pods-MakananIndonesia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesia/Pods-MakananIndonesia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A561AD7A481EC14ADDA7611 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesia/Pods-MakananIndonesia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8530DA99264C86C21D3374 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesiaUITests/Pods-MakananIndonesiaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C671788F193B1EEEE6C8364F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakananIndonesiaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88D31754C9D6781CFE595FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakananIndonesiaTests/Pods-MakananIndonesiaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D32DBC1FD3DEDD00A19420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395B00681FD3E04E00573E89 /* MakananTableViewCell.swift in Sources */,
+				395B00661FD3E03C00573E89 /* MakananTableViewController.swift in Sources */,
+				39D32DC61FD3DEDD00A19420 /* ViewController.swift in Sources */,
+				395B00641FD3E03000573E89 /* InputViewController.swift in Sources */,
+				39D32DC41FD3DEDD00A19420 /* AppDelegate.swift in Sources */,
+				395B00601FD3DFD300573E89 /* Makanan.swift in Sources */,
+				395B00621FD3E02700573E89 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DD01FD3DEDD00A19420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D32DD91FD3DEDD00A19420 /* MakananIndonesiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D32DDB1FD3DEDD00A19420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D32DE41FD3DEDD00A19420 /* MakananIndonesiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D32DD61FD3DEDD00A19420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D32DBF1FD3DEDD00A19420 /* MakananIndonesia */;
+			targetProxy = 39D32DD51FD3DEDD00A19420 /* PBXContainerItemProxy */;
+		};
+		39D32DE11FD3DEDD00A19420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D32DBF1FD3DEDD00A19420 /* MakananIndonesia */;
+			targetProxy = 39D32DE01FD3DEDD00A19420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D32DC71FD3DEDD00A19420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D32DC81FD3DEDD00A19420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D32DCC1FD3DEDD00A19420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D32DCD1FD3DEDD00A19420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D32DE61FD3DEDD00A19420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39D32DE71FD3DEDD00A19420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D32DE91FD3DEDD00A19420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BDDAFB71E8A5782546621E /* Pods-MakananIndonesia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D32DEA1FD3DEDD00A19420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EF4BD2BB49064B79DCEA0C /* Pods-MakananIndonesia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39D32DEC1FD3DEDD00A19420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2AC58EB8D8F073D36D24A08 /* Pods-MakananIndonesiaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakananIndonesia.app/MakananIndonesia";
+			};
+			name = Debug;
+		};
+		39D32DED1FD3DEDD00A19420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84733B69B07E876F34AAAE9A /* Pods-MakananIndonesiaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakananIndonesia.app/MakananIndonesia";
+			};
+			name = Release;
+		};
+		39D32DEF1FD3DEDD00A19420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D532BA628F1405200527098B /* Pods-MakananIndonesiaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakananIndonesia;
+			};
+			name = Debug;
+		};
+		39D32DF01FD3DEDD00A19420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6FDAF53E5DE46CB7B212859 /* Pods-MakananIndonesiaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakananIndonesiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SERIOUS.MakananIndonesiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakananIndonesia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D32DBB1FD3DEDD00A19420 /* Build configuration list for PBXProject "MakananIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D32DE61FD3DEDD00A19420 /* Debug */,
+				39D32DE71FD3DEDD00A19420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D32DE81FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D32DE91FD3DEDD00A19420 /* Debug */,
+				39D32DEA1FD3DEDD00A19420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D32DEB1FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D32DEC1FD3DEDD00A19420 /* Debug */,
+				39D32DED1FD3DEDD00A19420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D32DEE1FD3DEDD00A19420 /* Build configuration list for PBXNativeTarget "MakananIndonesiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D32DEF1FD3DEDD00A19420 /* Debug */,
+				39D32DF01FD3DEDD00A19420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D32DB81FD3DEDD00A19420 /* Project object */;
+}
